@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@87.5,200..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+:root{
+    --main-color:gray;
+    --text-color:rgb(184, 180, 180);
+    --bg-color:rgba(255, 255, 255, 0.616);
+}
+h1{
+    border: 1px solid black ;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menubar .barre{
+    border: 1px solid black;
+    display: flex;
+    list-style: none;
+    height: 60px;
+}   
+.menubar .barre li{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 15px;
+}
+.menubar .barre li a{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+.menubar .barre li a:hover{
+ border: 1px solid rgb(184, 180, 180);    
+ padding: 10px;
+}
+.menubar .logos img{
+    width: 250px;
+    margin-left: 25px;
+}
+.menubar .conne {
+    margin-left: 85px;
+    height: 50px;
+    margin-top: 15px;
+}
+.menubar .conne a{
+    color: black;
+    margin: 15px;
+}
+.menubar .conne a:hover{
+    border: 1px solid rgb(184, 180, 180);    
+    padding: 10px;
+}
+.menubar #here input{
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.menubar .bx-search{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -29px;
+   font-size: 24px;
+}
+/*pour notre corp*/
+.formul{
+    border: 1px solid black;
+    width: 400px;
+    margin-left: 35%;
+    height: 430px;
+}
+.formul label{
+    position: absolute;
+    margin-left: 12%;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 55px;
+}
+.formul .adress{
+    margin-top: 120px;
+    width: 350px;
+    margin-left: 55px;
+}
+ .adress input{
+    border: 1px solid black;
+    padding: 12px ;
+    width: 300px;
+}
+.formul .button{
+    margin-top: 120px;
+    width: 350px;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+ .button input{
+    border: 1px solid black;
+    padding: 12px ;
+    width: 300px;
+}
+.with {
+    border: 1px solid black;
+    padding: 12px ;
+    width: 230px;
+    margin-left: 95px;
+    margin-top: 25px;
+}
+.with a{
+ color: black;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+.with .bxl-google{
+    margin-top: 5px;
+}
+.plus{
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.plus a{
+    color: black;
+}
+h3{
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+}
+ .bxs-copyright{
+    position: absolute;
+    border: 1px solid black;
+    margin-top:26px ;
+    color: white;
+    margin-top: 27px;
+    margin-left: 135px;
+}
+
+/*pour notre footer*/
+footer{
+    margin-top: 1px;
+    background-color:rgb(207, 204, 204);
+ }
+footer .foot1 img{
+    width: 310PX;
+    margin-left: 38%;
+    margin-top: 20px;
+}
+footer .foot3{
+    border: 3px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    width: 340px;
+    padding: 15px 13px;
+    margin-top: -270px;
+    margin-left: 43%;
+    height: 310px;
+}
+footer .foot3 i {
+    color: black;
+    margin-left: 40px;
+    font-size: 24px;
+}
+footer .foot3 h3{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 63px;
+    margin-top: 29px;
+}
+footer .foot3 input{
+   width: 300px;
+   padding: 13px 12px;
+   margin-left:5px ;
+   margin-top: 15px;
+}
+footer .foot3  #app{
+    position: absolute;
+    border: 1px solid rgb(156, 151, 151);
+    width: 140px;
+    padding: 12px 10px;
+    margin-left: -141px;
+    margin-top: 85px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+footer .foot3  #store{
+    position: absolute;
+    border: 1px solid rgb(156, 151, 151);
+    width: 130px;
+    padding: 12px 10px;
+    margin-left: -300px;
+    margin-top: 85px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+footer .foot3  a{
+    color: rgb(255, 253, 253);
+}
+footer .foot2{
+    width: 600px;
+    padding: 13px 12px;
+    display: flex;
+    list-style: none;
+    height: 300px;
+}
+footer .foot2 li{
+    margin: 18px;
+    margin-left: 10px;
+    list-style: none;
+}
+footer .foot2 li a{
+  color: black;
+  margin-top: 20px;
+}
+footer .foot3 .creat {
+    margin-top: 105px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+footer .foot3 .creat a{
+    color: black;
+}
+footer .type{
+    position: absolute;
+    width: 330px;
+    margin-left: 73%;
+    margin-top: -290px;
+}
+footer .type h5{
+    margin-left: 90px;
+    padding: 12px;
+}
+footer .type #ens{
+width: 50px;
+margin-left: 25px;
+margin-top: -19px;
+}
+footer #box{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: -16px;
+}
+footer .type #wom{
+    width: 50px;
+    margin-left: 125px;
+    margin-top: -19px;
+}
+footer .type #agree{
+    margin-top: 25px;
+}
+footer .type p{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+footer .type #mit{
+    border: 1px solid black;
+    padding: 11px 10px;
+    margin-top: 35px;
+    width: 250px;
+    margin-left: 40px;
+}
+footer .type button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px 10px;
+    margin-left: -55px;
+    margin-top: 35px;
+}
